@@ -15,6 +15,9 @@ header {
   font-family: "Poppins", sans-serif;
   font-size: 20px;
 }
+header .navbar a {
+  font-weight: 500;
+}
 header .navbar .navbar-nav {
   font-size: 16px;
 }
@@ -29,12 +32,16 @@ header .navbar {
 header .navbar a {
   color: #ddd;
 }
+header .navbar a:first-child {
+  padding-bottom: 10px;
+}
 header .navbar a:hover {
   color: #d93;
   text-decoration: none;
 }
 header .navbar .navbar-toggler {
   color: #ddd;
+  padding-bottom: 10px;
 }
 header .navbar .navbar-toggler:focus {
   outline: none;
@@ -48,13 +55,33 @@ header .navbar .navbar-nav .nav-item .nav-link {
 header .navbar .navbar-nav .nav-item hr {
   border-color: #434343;
 }
+header .navbar .navbar-nav .nav-item:first-child {
+  border-top: 1px solid #434343;
+}
 header .navbar .navbar-nav .active > .nav-link {
   color: #d93;
 }
 
 @media (min-width: 992px) {
+  header .navbar {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+  }
+  header .navbar a:first-child {
+    padding-bottom: 0;
+  }
   header .navbar .navbar-nav .nav-item hr {
     display: none;
+  }
+  header .navbar .navbar-nav .nav-item:first-child {
+    border-top: none;
+  }
+}
+@media (min-width: 1200px) {
+  header .navbar {
+    max-width: 1140px;
   }
 }
 footer .container-fluid:first-child {
