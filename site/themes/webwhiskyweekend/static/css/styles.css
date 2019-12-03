@@ -161,5 +161,56 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
     text-align: right;
   }
 }
+.carousel-1 .carousel-inner {
+  min-height: 704px;
+}
+
+.carousel-text {
+  top: 25%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  text-shadow: 2px 3px 2px rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
+.carousel-text h1, .carousel-text h2 {
+  font-family: "Oswald", sans-serif;
+  color: #fff;
+}
+.carousel-text h1 {
+  font-size: 90px;
+  font-weight: 500;
+}
+.carousel-text h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.carousel-text h3 {
+  font-size: 36px;
+  color: #ddd;
+  font-weight: 700;
+}
+
+@media (max-width: 767.98px) {
+  .carousel-text h1 {
+    font-size: 50px;
+  }
+}
+@media (max-width: 991.98px) {
+  .carousel-1 img {
+    width: initial !important;
+  }
+}
+.carousel:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 2;
+}
 
 /*# sourceMappingURL=styles.css.map */
