@@ -84,3 +84,25 @@
         }
     }
 }
+
+.section-3 {
+    background-image: linear-gradient(0deg, rgba($black, .5), rgba($black, .5)), url("/img/2018/05/cdb9cfdb-539f-4a55-97b2-0bd3ac2d4816.c10.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: $white;
+    font-size: 18px;
+    h1 {
+        font-size: 36px;
+    }
+    h4 {
+        font-size: 18px;
+    }
+    a {
+        color: $orange-1;
+        &:hover {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+}

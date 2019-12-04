@@ -231,6 +231,28 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   margin-bottom: 0;
 }
 
+.section-3 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/2018/05/cdb9cfdb-539f-4a55-97b2-0bd3ac2d4816.c10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 18px;
+}
+.section-3 h1 {
+  font-size: 36px;
+}
+.section-3 h4 {
+  font-size: 18px;
+}
+.section-3 a {
+  color: #d93;
+}
+.section-3 a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
 .carousel:after {
   content: "";
   display: block;
