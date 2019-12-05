@@ -253,7 +253,27 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   text-decoration: none;
 }
 
-.carousel:after {
+.section-4 .row.py-1.my-3 .img-fluid.py-4 {
+  cursor: pointer;
+}
+.section-4 .modal .modal-dialog {
+  max-width: 75vw;
+  margin: 1.75rem auto;
+}
+.section-4 .modal .modal-dialog .close {
+  position: absolute;
+  right: -15%;
+  color: #fff;
+  z-index: 2;
+}
+.section-4 .modal .modal-dialog .carousel-control-prev {
+  left: -15%;
+}
+.section-4 .modal .modal-dialog .carousel-control-next {
+  right: -15%;
+}
+
+.section-1 .carousel:after {
   content: "";
   display: block;
   position: absolute;

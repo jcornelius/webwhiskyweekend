@@ -106,3 +106,29 @@
         }
     }
 }
+
+.section-4 {
+    .row.py-1.my-3 {
+        .img-fluid.py-4 {
+            cursor: pointer;
+        }
+    }
+    .modal {
+        .modal-dialog {
+            max-width: 75vw;
+            margin: 1.75rem auto;
+            .close {
+                position: absolute;
+                right: -15%;
+                color: $white;
+                z-index: 2;
+            }
+            .carousel-control-prev {
+                left: -15%;
+            }
+            .carousel-control-next {
+                right: -15%;
+            }
+        }
+    }
+}
