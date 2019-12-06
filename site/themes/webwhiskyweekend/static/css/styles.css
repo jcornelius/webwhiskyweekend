@@ -273,7 +273,42 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   right: -15%;
 }
 
-.section-1 .carousel:after {
+.section-5 .carousel-2 .carousel-inner {
+  max-height: 632.8px;
+}
+.section-5 .carousel-text {
+  top: 5%;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  color: #fff;
+  z-index: 2;
+}
+.section-5 .carousel-text h1 {
+  font-size: 54px;
+}
+.section-5 .carousel-text h3 {
+  font-size: 24px;
+}
+.section-5 .carousel-text p {
+  font-size: 18px;
+}
+@media (max-width: 767.98px) {
+  .section-5 .carousel-2 .carousel-inner {
+    height: 964px;
+  }
+}
+@media (max-width: 991.98px) {
+  .section-5 .carousel-2 .carousel-inner {
+    max-height: unset;
+  }
+  .section-5 .carousel-2 .carousel-inner img {
+    width: initial !important;
+  }
+}
+
+.section-1 .carousel:after,
+.section-5 .carousel:after {
   content: "";
   display: block;
   position: absolute;
