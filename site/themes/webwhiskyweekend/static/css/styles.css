@@ -148,6 +148,11 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   padding-bottom: 20px;
 }
 
+@media (max-width: 575.98px) {
+  footer .container-fluid:nth-child(2) .navbar .navbar-nav .nav-item {
+    padding-right: 10px;
+  }
+}
 @media (max-width: 767.98px) {
   footer .container-fluid:nth-child(2) .navbar {
     justify-content: center;
@@ -275,6 +280,9 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   .section-2 ul {
     padding: 0;
   }
+  .section-2 ul li {
+    width: 75%;
+  }
   .section-2 ul li .fa {
     margin-right: 15px;
   }
@@ -300,6 +308,11 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
 .section-3 a:hover {
   color: #fff;
   text-decoration: none;
+}
+@media (max-width: 575.98px) {
+  .section-3 h1 {
+    word-wrap: break-word;
+  }
 }
 
 .section-4 .row.py-1.my-3 .img-fluid.py-4 {

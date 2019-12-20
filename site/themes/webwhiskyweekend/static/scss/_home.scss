@@ -118,6 +118,7 @@
         ul {
             padding: 0;
             li {
+                width: 75%;
                 .fa {
                     margin-right: 15px;
                 }
@@ -144,6 +145,11 @@
         &:hover {
             color: $white;
             text-decoration: none;
+        }
+    }
+    @media (max-width: 575.98px) {
+        h1 {
+            word-wrap: break-word;
         }
     }
 }
