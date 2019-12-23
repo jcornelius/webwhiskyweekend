@@ -479,8 +479,8 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   right: -15%;
 }
 
-.section-1 .carousel:after,
-.section-5 .carousel:after {
+.home .section-1 .carousel:after,
+.home .section-5 .carousel:after {
   content: "";
   display: block;
   position: absolute;
