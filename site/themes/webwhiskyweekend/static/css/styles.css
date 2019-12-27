@@ -479,6 +479,54 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   right: -15%;
 }
 
+.the-food .section-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/2018/05/f04b47b3-2124-4ed3-933e-c2e93e9f1c4a.c10.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 18px;
+}
+.the-food .section-1 .col-12 {
+  padding: 100px 0;
+}
+.the-food .section-1 .col-12 h1 {
+  font-size: 70px;
+  margin-bottom: 40px;
+}
+.the-food .section-1 .col-12 p {
+  margin-bottom: 30px;
+}
+.the-food .section-2 {
+  padding: 20px 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.the-food .section-2 h2,
+.the-food .section-2 p,
+.the-food .section-2 ul {
+  margin-bottom: 10px;
+}
+.the-food .section-2 h2 {
+  font-size: 30px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  color: #333;
+}
+.the-food .section-2 p,
+.the-food .section-2 li {
+  font-size: 18px;
+  color: #808080;
+}
+.the-food .section-2 div.text-center {
+  margin-top: 35.6px;
+  margin-bottom: 10px;
+}
+.the-food .section-2 img {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
 .home .section-1 .carousel:after,
 .home .section-5 .carousel:after {
   content: "";
