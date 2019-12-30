@@ -22,6 +22,24 @@ header .navbar .navbar-nav {
   font-size: 16px;
 }
 
+.button {
+  display: inline-block;
+  color: #000;
+  background-color: #d93;
+  padding: 12px 24px;
+  border: 1px solid #b5781e;
+  border-radius: 4px;
+}
+.button:active {
+  position: relative;
+  top: 1px;
+}
+.button:hover, .button:active {
+  color: #fff;
+  background-color: #a62;
+  text-decoration: none;
+}
+
 header {
   background-color: #222;
 }
@@ -382,23 +400,6 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   color: #808080;
   font-size: 14px;
 }
-.home .section-6 a {
-  display: inline-block;
-  color: #000;
-  background-color: #d93;
-  padding: 12px 24px;
-  border: 1px solid #b5781e;
-  border-radius: 4px;
-}
-.home .section-6 a:active {
-  position: relative;
-  top: 1px;
-}
-.home .section-6 a:hover, .home .section-6 a:active {
-  color: #fff;
-  background-color: #a62;
-  text-decoration: none;
-}
 .home .section-7 {
   background-color: #ddd;
 }
@@ -525,6 +526,75 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
 .the-food .section-2 img {
   margin-top: 5px;
   margin-bottom: 20px;
+}
+
+.people .section-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("/img/2017/06/dinner-1024x768.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 18px;
+}
+.people .section-1 .col-12 {
+  padding: 20px 0;
+}
+.people .section-1 .col-12 h1 {
+  font-size: 70px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.people .section-1 .col-12 p {
+  margin-bottom: 30px;
+}
+.people .section-2 a i {
+  font-size: 300px;
+  color: #d93;
+}
+.people .section-2 a:hover i {
+  color: #a62;
+}
+.people .section-2 h3 {
+  font-size: 24px;
+}
+.people .section-2 hr {
+  border-color: #d93;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.people .section-2 .card {
+  border: none;
+}
+.people .section-2 .card img {
+  border-radius: 100%;
+}
+.people .section-2 .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+.people .section-2 .card-body h3 {
+  color: #333;
+  margin: 0;
+}
+.people .section-2 .card-body span,
+.people .section-2 .card-body p {
+  font-size: 18px;
+  color: #808080;
+}
+.people .section-2 .card-body hr {
+  margin: 10px 0;
+}
+.people .section-2 .card-body a {
+  color: #d93;
+}
+.people .section-2 .card-body a:hover {
+  color: #a62;
+  text-decoration: none;
+}
+.people .section-2 .card-body a i {
+  font-size: 30px;
+  color: #1da1f2;
+  margin-right: 10px;
 }
 
 .home .section-1 .carousel:after,

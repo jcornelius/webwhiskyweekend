@@ -1,0 +1,18 @@
+.button {
+    display: inline-block;
+    color: $black;
+    background-color: $orange-1;
+    padding: 12px 24px;
+    border: 1px solid $orange-3;
+    border-radius: 4px;
+    &:active {
+        position: relative;
+        top: 1px;
+    }
+    &:hover,
+    &:active {
+        color: $white;
+        background-color: $orange-2;
+        text-decoration: none;
+    }
+}
