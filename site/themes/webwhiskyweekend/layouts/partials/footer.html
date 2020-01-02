@@ -43,3 +43,7 @@
 </footer>
 
 {{ partial "scripts.html" }}
+
+{{ range .Params.scripts }}
+<script src="{{ . }}"></script>
+{{ end }}
