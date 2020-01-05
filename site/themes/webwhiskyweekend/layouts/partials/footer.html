@@ -16,10 +16,10 @@
                     <h4>Brought to you by:</h4>
                     <div class="row">
                         <div class="col-6 text-center">
-                            <img src="/img/Eventbrite-RandD-150x150.png" alt="" class="img-fluid">
+                            <img src="/img/2018/07/Eventbrite-RandD-150x150.png" alt="" class="img-fluid">
                         </div>
                         <div class="col-6 text-center">
-                            <img src="/img/NineLabs-250x250-150x150.png" alt="" class="img-fluid">
+                            <img src="/img/2018/07/NineLabs-250x250-150x150.png" alt="" class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -43,3 +43,7 @@
 </footer>
 
 {{ partial "scripts.html" }}
+
+{{ range .Params.scripts }}
+<script src="{{ . }}"></script>
+{{ end }}
