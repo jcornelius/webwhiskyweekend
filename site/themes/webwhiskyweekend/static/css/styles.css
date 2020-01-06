@@ -692,6 +692,46 @@ footer .container-fluid:nth-child(2) .col-md-6.align-self-center {
   margin-bottom: 20px;
 }
 
+.register .section-1 {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/img/2016/06/selection.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-size: 18px;
+}
+.register .section-1 .col-12 {
+  padding: 100px 0;
+}
+.register .section-1 .col-12 h1 {
+  font-size: 54px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.register .section-2 .col-md-9 h4 {
+  font-size: 18px;
+  line-height: 1.4;
+  letter-spacing: 0;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.register .section-2 .col-md-9 ul li {
+  color: #808080;
+  font-size: 18px;
+}
+.register .section-2 .col-md-3 p {
+  color: #808080;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.register .section-3 .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.register .section-3 .container .col-12 a {
+  font-size: 27px;
+}
+
 .home .section-1 .carousel:after,
 .home .section-5 .carousel:after {
   content: "";
