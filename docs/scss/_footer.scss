@@ -1,0 +1,103 @@
+footer {
+    .container-fluid:first-child {
+        font-size: 18px;
+        background-color: $gray-4;
+        padding-top: 30px;
+        h4 {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        a {
+            color: $orange-1;
+            &:hover {
+                color: $white;
+            }
+        }
+        hr {
+            margin: 20px 0;
+        }
+        h4, p {
+            font-size: 18px;
+            color: $gray-5;
+        }
+        .col-sm-6 {
+            margin-bottom: 40px;
+        }
+    }
+
+    .container-fluid:nth-child(2) {
+        font-size: 12px;
+        background-color: $gray-1;
+        padding-top: 20px;
+        a {
+            color: $orange-1;
+            &:hover {
+                color: $orange-2;
+            }
+        }
+        .navbar {
+            padding: 0;
+            .navbar-nav {
+                flex-direction: row;
+                margin-bottom: 10px;
+                .nav-item {
+                    padding-right: 20px;
+                    padding-bottom: 15px;
+                    &:last-child {
+                        padding-right: 0;
+                    }
+                    .nav-link {
+                        padding: 0;
+                    }
+                }
+                .active>.nav-link {
+                    color: $orange-2;
+                }
+            }
+        }
+        .col-md-6.align-self-center {
+            color: $gray-6;
+            padding-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 575.98px) {
+    footer {
+        .container-fluid:nth-child(2) {
+            .navbar {
+                .navbar-nav {
+                    .nav-item {
+                        padding-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 767.98px) {
+    footer {
+        .container-fluid:nth-child(2) {
+            .navbar {
+                justify-content: center;
+            }
+            .col-md-6.align-self-center {
+                text-align: center;
+            }
+        }
+    }
+} 
+
+@media (min-width: 768px) {
+    footer {
+        .container-fluid:nth-child(2) {
+            .col-md-6.align-self-center {
+                text-align: right;
+            }
+        }
+    }
+}
