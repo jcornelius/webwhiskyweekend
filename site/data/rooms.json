@@ -1,0 +1,202 @@
+{
+    "rooms": [
+        {
+            "MapID": 1,
+            "Room": "Main Floor King Bedroom with Private Bath",
+            "Sleeps": 2,
+            "Rate": 1795
+        },
+        {
+            "MapID": 2,
+            "Room": "Main Floor King Bedroom with Private Bath and Gazebo Sitting Room",
+            "Sleeps": 2,
+            "Rate": 1995
+        },
+        {
+            "MapID": 3,
+            "Room": "Main Floor Bunk Room Full Bed",
+            "Sleeps": 2,
+            "Rate": 895
+        },
+        {
+            "MapID": 4,
+            "Room": "Main Floor Bunk Room Twin Bed",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 5,
+            "Room": "Main House Basement King Bed",
+            "Sleeps": 2,
+            "Rate": 995
+        },
+        {
+            "MapID": 6,
+            "Room": "Main House Basement King Bed",
+            "Sleeps": 2,
+            "Rate": 995
+        },
+        {
+            "MapID": 7,
+            "Room": "Main House Basement Twin Bed",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 8,
+            "Room": "Main House Basement Twin Bed",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 9,
+            "Room": "Main House Upstairs King Room with Private Bath",
+            "Sleeps": 2,
+            "Rate": 1895
+        },
+        {
+            "MapID": 10,
+            "Room": "Main House Upstairs Bunk Room Twin Bed - Lower Bunk",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 11,
+            "Room": "Main House Upstairs Bunk Room Twin Bed - Lower Bunk",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 12,
+            "Room": "Main House Upstairs Bunk Room Twin Bed - Upper Bunk",
+            "Sleeps": 1,
+            "Rate": 645
+        },
+        {
+            "MapID": 13,
+            "Room": "Main House Upstairs Bunk Room Twin Bed - Upper Bunk",
+            "Sleeps": 1,
+            "Rate": 645
+        },
+        {
+            "MapID": 14,
+            "Room": "Main House Upstairs Master Suite",
+            "Sleeps": 2,
+            "Rate": 2195
+        },
+        {
+            "MapID": 15,
+            "Room": "Main House Upstairs King Room",
+            "Sleeps": 2,
+            "Rate": 1795
+        },
+        {
+            "MapID": 16,
+            "Room": "Main House Upstairs Queen Room",
+            "Sleeps": 2,
+            "Rate": 1295
+        },
+        {
+            "MapID": 17,
+            "Room": "Main House Upstairs Twin Bed (Private Room)",
+            "Sleeps": 1,
+            "Rate": 795
+        },
+        {
+            "MapID": 18,
+            "Room": "Main House Upstairs Twin Bed",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 19,
+            "Room": "Main House Upstairs Twin Bed ",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 20,
+            "Room": "Main House Upstairs Twin Bed (Alcove)",
+            "Sleeps": 1,
+            "Rate": 595
+        },
+        {
+            "MapID": 21,
+            "Room": "Garage Apartment Queen Bedroom",
+            "Sleeps": 2,
+            "Rate": 1395
+        },
+        {
+            "MapID": 22,
+            "Room": "Garage Apartment Bunk Room Twin Bed - Lower Bunk",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 23,
+            "Room": "Garage Apartment Bunk Room Twin Bed - Lower Bunk",
+            "Sleeps": 1,
+            "Rate": 695
+        },
+        {
+            "MapID": 24,
+            "Room": "Garage Apartment Bunk Room Twin Bed - Upper Bunk",
+            "Sleeps": 1,
+            "Rate": 645
+        },
+        {
+            "MapID": 25,
+            "Room": "Garage Apartment Bunk Room Twin Bed - Upper Bunk",
+            "Sleeps": 1,
+            "Rate": 645
+        },
+        {
+            "MapID": 26,
+            "Room": "Kathy's Cabin (entire cabin)",
+            "Sleeps": 3,
+            "Rate": 2195
+        },
+        {
+            "MapID": 27,
+            "Room": "Barn Cabin Queen Bed",
+            "Sleeps": 2,
+            "Rate": 695
+        },
+        {
+            "MapID": 28,
+            "Room": "Barn Cabin Twin Bed",
+            "Sleeps": 1,
+            "Rate": 595
+        },
+        {
+            "MapID": 29,
+            "Room": "Barn Cabin Twin Bed",
+            "Sleeps": 1,
+            "Rate": 595
+        },
+        {
+            "MapID": 30,
+            "Room": "Barn Cabin Twin Bed",
+            "Sleeps": 1,
+            "Rate": 595
+        },
+        {
+            "MapID": 31,
+            "Room": "Barn Cabin Twin Bed",
+            "Sleeps": 1,
+            "Rate": 595
+        },
+        {
+            "MapID": 32,
+            "Room": "Barn Cabin Twin Bed",
+            "Sleeps": 1,
+            "Rate": 595
+        },
+        {
+            "MapID": 33,
+            "Room": "Barn Cabin Pull-out Sofa Bed",
+            "Sleeps": 2,
+            "Rate": 595
+        }
+    ]
+}

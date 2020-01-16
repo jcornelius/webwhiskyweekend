@@ -1,0 +1,39 @@
+<div class="registration-form">
+    <div class="container px-0">
+        <div class="row px-1 mx-3">
+            <div class="col-12 px-0 py-1 my-3">
+                <div class="form-row mb-3">
+                    <div class="col">
+                        <label for="room">Choose Your Room</label>
+                        <select id="room" class="form-control room-select" onchange="getCost()">
+                            {{ with .Site.Data.rooms }}
+                                {{ range .rooms }}
+                            <option value="{{ .MapID }}">
+                                {{ .Room }} - ${{ .Rate }}
+                            </option>
+                                {{ end }}
+                            {{ end }}
+                        </select>
+                    </div>
+                    <div class="col mt-auto">
+                        <a href="#" class="button">Book Now for $<span class="room-cost">{{ (index .Site.Data.rooms.rooms 0).Rate }}</span></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active room-photo-button">
+                            <input type="radio" name="options" id="room-photo-radio" checked> Photo
+                        </label>
+                        <label class="btn btn-secondary map-location-button">
+                            <input type="radio" name="options" id="map-location-radio"> Location
+                        </label>
+                    </div>
+                    <div class="border">
+                        <img src="..." class="img-fluid room-photo" alt="Photo of Room">
+                        <img src="..." class="img-fluid d-none map-location" alt="MAP LOCATION OF ROOM">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

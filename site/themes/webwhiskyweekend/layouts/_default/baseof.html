@@ -5,6 +5,9 @@
         {{- partial "header.html" . -}}
         <div id="content">
         {{- block "main" . }}{{- end }}
+        {{ if eq .Type "register" }}
+            {{- partial "registration-form.html" . -}}
+        {{ end }}
         </div>
         {{- partial "footer.html" . -}}
     </body>
