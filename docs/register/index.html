@@ -81,18 +81,176 @@
             </div>
         </div>
     </div>
-    <div class="section-3">
-        <div class="container px-0">
-            <div class="row px-1 mx-3">
-                <div class="col-12 py-1 my-3 text-center d-md-none">
-                    <a href="https://www.eventbrite.com/e/web-whisky-weekend-5-tickets-55128086591" class="button"><i
-                            class="fa fa-star"></i> Get Tickets <i class="fa fa-star"></i></a>
+</div>
+
+
+        <div class="registration-form">
+    <div class="container px-0">
+        <div class="row px-1 mx-3">
+            <div class="col-12 px-0 py-1 my-3">
+                <div class="form-row mb-3">
+                    <div class="col">
+                        <label for="room">Choose Your Room</label>
+                        <select id="room" class="form-control room-select" onchange="getCost()">
+                            
+                                
+                            <option value="1">
+                                Main Floor King Bedroom with Private Bath - $1795
+                            </option>
+                                
+                            <option value="2">
+                                Main Floor King Bedroom with Private Bath and Gazebo Sitting Room - $1995
+                            </option>
+                                
+                            <option value="3">
+                                Main Floor Bunk Room Full Bed - $895
+                            </option>
+                                
+                            <option value="4">
+                                Main Floor Bunk Room Twin Bed - $695
+                            </option>
+                                
+                            <option value="5">
+                                Main House Basement King Bed - $995
+                            </option>
+                                
+                            <option value="6">
+                                Main House Basement King Bed - $995
+                            </option>
+                                
+                            <option value="7">
+                                Main House Basement Twin Bed - $695
+                            </option>
+                                
+                            <option value="8">
+                                Main House Basement Twin Bed - $695
+                            </option>
+                                
+                            <option value="9">
+                                Main House Upstairs King Room with Private Bath - $1895
+                            </option>
+                                
+                            <option value="10">
+                                Main House Upstairs Bunk Room Twin Bed - Lower Bunk - $695
+                            </option>
+                                
+                            <option value="11">
+                                Main House Upstairs Bunk Room Twin Bed - Lower Bunk - $695
+                            </option>
+                                
+                            <option value="12">
+                                Main House Upstairs Bunk Room Twin Bed - Upper Bunk - $645
+                            </option>
+                                
+                            <option value="13">
+                                Main House Upstairs Bunk Room Twin Bed - Upper Bunk - $645
+                            </option>
+                                
+                            <option value="14">
+                                Main House Upstairs Master Suite - $2195
+                            </option>
+                                
+                            <option value="15">
+                                Main House Upstairs King Room - $1795
+                            </option>
+                                
+                            <option value="16">
+                                Main House Upstairs Queen Room - $1295
+                            </option>
+                                
+                            <option value="17">
+                                Main House Upstairs Twin Bed (Private Room) - $795
+                            </option>
+                                
+                            <option value="18">
+                                Main House Upstairs Twin Bed - $695
+                            </option>
+                                
+                            <option value="19">
+                                Main House Upstairs Twin Bed  - $695
+                            </option>
+                                
+                            <option value="20">
+                                Main House Upstairs Twin Bed (Alcove) - $595
+                            </option>
+                                
+                            <option value="21">
+                                Garage Apartment Queen Bedroom - $1395
+                            </option>
+                                
+                            <option value="22">
+                                Garage Apartment Bunk Room Twin Bed - Lower Bunk - $695
+                            </option>
+                                
+                            <option value="23">
+                                Garage Apartment Bunk Room Twin Bed - Lower Bunk - $695
+                            </option>
+                                
+                            <option value="24">
+                                Garage Apartment Bunk Room Twin Bed - Upper Bunk - $645
+                            </option>
+                                
+                            <option value="25">
+                                Garage Apartment Bunk Room Twin Bed - Upper Bunk - $645
+                            </option>
+                                
+                            <option value="26">
+                                Kathy&#39;s Cabin (entire cabin) - $2195
+                            </option>
+                                
+                            <option value="27">
+                                Barn Cabin Queen Bed - $695
+                            </option>
+                                
+                            <option value="28">
+                                Barn Cabin Twin Bed - $595
+                            </option>
+                                
+                            <option value="29">
+                                Barn Cabin Twin Bed - $595
+                            </option>
+                                
+                            <option value="30">
+                                Barn Cabin Twin Bed - $595
+                            </option>
+                                
+                            <option value="31">
+                                Barn Cabin Twin Bed - $595
+                            </option>
+                                
+                            <option value="32">
+                                Barn Cabin Twin Bed - $595
+                            </option>
+                                
+                            <option value="33">
+                                Barn Cabin Pull-out Sofa Bed - $595
+                            </option>
+                                
+                            
+                        </select>
+                    </div>
+                    <div class="col mt-auto">
+                        <a href="#" class="button">Book Now for $<span class="room-cost">1795</span></a>
+                    </div>
+                </div>
+                <div>
+                    <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                        <label class="btn btn-secondary active room-photo-button">
+                            <input type="radio" name="options" id="room-photo-radio" checked> Photo
+                        </label>
+                        <label class="btn btn-secondary map-location-button">
+                            <input type="radio" name="options" id="map-location-radio"> Location
+                        </label>
+                    </div>
+                    <div class="border">
+                        <img src="..." class="img-fluid room-photo" alt="Photo of Room">
+                        <img src="..." class="img-fluid d-none map-location" alt="MAP LOCATION OF ROOM">
+                    </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
-
 
         </div><footer>
     <div class="container-fluid">
@@ -160,6 +318,8 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 
+
+<script src="../js/registration-form.js"></script>
 
 </body>
 </html>
