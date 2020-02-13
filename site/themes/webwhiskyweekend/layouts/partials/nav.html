@@ -1,9 +1,0 @@
-<ul class="navbar-nav">
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.nav }}
-    <li class="nav-item {{ if or ($currentPage.IsMenuCurrent "nav" .) }}active{{ end }}">
-       <a class="nav-link" href="{{ .URL }}">{{ .Name }}</a>
-       <hr class="m-0">
-    </li>
-   {{ end }}
-</ul>

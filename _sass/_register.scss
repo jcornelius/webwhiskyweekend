@@ -1,0 +1,79 @@
+.register {
+    .section-1 {
+        background-image: linear-gradient(0deg, rgba($black, .3), rgba($black, .3)), url("/assets/img/selection.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        color: $white;
+        font-size: 18px;
+        .col-12 {
+            padding: 100px 0;
+            h1 {
+                font-size: 54px;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .section-2 {
+        .col-md-9 {
+            h4 {
+                font-size: 18px;
+                line-height: 1.4;
+                letter-spacing: 0;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            ul {
+                li {
+                    color: $gray-9;
+                    font-size: 18px;
+                }
+            }
+        }
+        .col-md-3 {
+            p {
+                color: $gray-9;
+                font-size: 14px;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    .section-3 {
+        .container {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            .col-12 {
+                a {
+                    font-size: 27px;
+                }
+            }
+        }
+    }
+}
+
+#room-info-nav {
+  a.nav-link {
+    color: #333;
+    &:hover {
+      color: $orange-1;
+    }
+  }
+  a.nav-link.active {
+    color: $orange-1;
+  }
+}
+
+
+.room-info-container {
+  margin:3rem 0;
+}
+#room-image-container {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  img#room-location {
+    display: none;
+  }
+}
