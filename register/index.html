@@ -8,7 +8,7 @@ js: register
         <div class="container p-0">
             <div class="row mx-0">
                 <div class="col-12">
-                    <h1 class="px-1 mx-3">Registration Opens Feb 15, 2020</h1>
+                    <h1 class="px-1 mx-3">Reserve Your Spot</h1>
                 </div>
             </div>
         </div>
@@ -19,23 +19,20 @@ js: register
         <div class="container mt-5">
           <div class="row">
             <div class="col">
-              <h3>Please Select your Sleeping Arrangements</h3>
+              <h3>Explore the Sleeping Arrangements</h3>
             </div>
           </div>
           <div class="row">
-            <div class="col-8">
+            <div class="col align-middle">
               <select id="room" class="custom-select">
                 {% for room in site.data.rooms %}
-                <option value="{{ room.id }}" data-rate="{{ room.rate }}" data-sleeps="{{ room.sleeps }}">#{{ room.id }} - ${{ room.rate }} - {{ room.room }} (Sleeps {{ room.sleeps }})</option>
+                <option value="{{ room.id }}" data-rate="{{ room.rate }}" data-sleeps="{{ room.sleeps }}">#{{ room.id }} - {{ room.room }} (Sleeps {{ room.sleeps }}) - ${{ room.rate }}</option>
                 {% endfor %}
               </select>
             </div>
-            <div class="col-4">
-              <input type="submit" class="btn button" id="book-button" value="Book This for $1895">
-            </div>
           </div>
           <div class="row room-info-container">
-            <div class="col-12">
+            <div class="col">
               <div id="room-info">
                 <ul id="room-info-nav" class="nav nav-tabs">
                   <li class="nav-item">
@@ -56,17 +53,23 @@ js: register
         </form>
         <div class="container px-0 py-1 my-3">
             <div class="row px-1 mx-3">
-                <div class="col-12 col-md-9 px-0 py-1 my-3">
-                    <h4>Important Pricing Info:</h4>
-                    <ul>
-                        <li>All private bedrooms and full-size beds in shared rooms include attendance for two people. You can book them for yourself or bring a +1, up to you.</li>
-                        <li>Kathy's Cabin includes the entire cabin (which can technically sleep 3 people).</li>
-                    </ul>
+                <div class="col text-center py-1 my-3">
+
+                    <a class="btn button btn-lg" href="https://www.eventbrite.com/e/web-whisky-weekend-6-tickets-94616938811">Reserve Your Spot Now</a>
+                    <p class="my-3">There are lots of rooms to choose from. <a href="/img/2018/05/Sleeping-Layout.png">View the Room Guide</a></p>
+                    <hr>
                 </div>
-                <div class="col-12 col-md-3 text-center py-1 my-3">
-                    <p>Lots of rooms to choose from.</p>
-                    <a href="/img/2018/05/Sleeping-Layout.png" class="button"><i class="fa fa-download"></i> Download the Bedroom Guide</a>
-                </div>
+            </div>
+            <div class="row">
+              <div class="col attendee-info">
+                <h5>Important Attendee Info:</h5>
+                <ul>
+                  <li>Each attendee must bring two unique, unopened bottles of whisky to attend.</li>
+                  <li>Your ticket includes all food and drink for the weekend, other than the two bottles of whisky each attendee has to bring.</li>
+                  <li>All private bedrooms and full-size beds in shared rooms include attendance for two people. You can book them for yourself or bring a +1, up to you.</li>
+                  <li>Kathy&rsquo;s Cabin includes the entire cabin (which can technically sleep 3 people).</li>
+                </ul>
+              </div>
             </div>
         </div>
     </div>

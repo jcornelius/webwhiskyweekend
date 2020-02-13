@@ -7,28 +7,28 @@
             width: 100%;
             height: 100%;
             &-1 {
-                background-image: url("/img/2018/05/cdb9cfdb-539f-4a55-97b2-0bd3ac2d4816.c10-1-1024x768.jpg");
+                background-image: url("/assets/img/cdb9cfdb-539f-4a55-97b2-0bd3ac2d4816.c10-1-1024x768.jpg");
             }
             &-2 {
-                background-image: url("/img/2018/05/6460e15d-6024-4e10-9c72-9d3c3b737510.c10-1024x768.jpg");
+                background-image: url("/assets/img/6460e15d-6024-4e10-9c72-9d3c3b737510.c10-1024x768.jpg");
             }
             &-3 {
-                background-image: url("/img/2018/05/Theater-1-1024x576.jpg");
+                background-image: url("/assets/img/Theater-1-1024x576.jpg");
             }
             &-4 {
-                background-image: url("/img/2018/05/99b2c518-54b9-4919-800b-bc695c8fb8ea.c10-1024x768.jpg");
+                background-image: url("/assets/img/99b2c518-54b9-4919-800b-bc695c8fb8ea.c10-1024x768.jpg");
             }
             &-5 {
-                background-image: url("/img/2018/05/68e31014-c380-4964-a23d-a9f755b79f17.c10-1024x768.jpg");
+                background-image: url("/assets/img/68e31014-c380-4964-a23d-a9f755b79f17.c10-1024x768.jpg");
             }
             &-6 {
-                background-image: url("/img/2018/05/Ark-Foyer-1-1024x576.jpg");
+                background-image: url("/assets/img/Ark-Foyer-1-1024x576.jpg");
             }
             &-7 {
-                background-image: url("/img/2018/05/f04b47b3-2124-4ed3-933e-c2e93e9f1c4a.c10-1-1024x768.jpg");
+                background-image: url("/assets/img/f04b47b3-2124-4ed3-933e-c2e93e9f1c4a.c10-1-1024x768.jpg");
             }
             &-8 {
-                background-image: url("/img/2018/05/b0561cce-4557-4d80-958b-3a4c3eb3af93.c10-1-1024x768.jpg");
+                background-image: url("/assets/img/b0561cce-4557-4d80-958b-3a4c3eb3af93.c10-1-1024x768.jpg");
             }
         }
         .carousel-text {
@@ -129,7 +129,7 @@
     }
 
     .section-3 {
-        background-image: linear-gradient(0deg, rgba($black, .5), rgba($black, .5)), url("/img/2018/05/cdb9cfdb-539f-4a55-97b2-0bd3ac2d4816.c10.jpg");
+        background-image: linear-gradient(0deg, rgba($black, .5), rgba($black, .5)), url("/assets/img/cdb9cfdb-539f-4a55-97b2-0bd3ac2d4816.c10.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -189,22 +189,22 @@
             width: 100%;
             height: 100%;
             &-1 {
-                background-image: url("/img/2017/06/steak-1024x768.jpg");
+                background-image: url("/assets/img/steak-1024x768.jpg");
             }
             &-2 {
-                background-image: url("/img/2017/06/cheese-board-1024x768.jpg");
+                background-image: url("/assets/img/cheese-board-1024x768.jpg");
             }
             &-3 {
-                background-image: url("/img/2017/06/2016-11-12-14.41.55-2-1024x1024.jpg");
+                background-image: url("/assets/img/2016-11-12-14.41.55-2-1024x1024.jpg");
             }
             &-4 {
-                background-image: url("/img/2017/06/serving-dinner-1024x768.jpg");
+                background-image: url("/assets/img/serving-dinner-1024x768.jpg");
             }
             &-5 {
-                background-image: url("/img/2016/06/2015-11-14-20.38.15-1024x768.jpg");
+                background-image: url("/assets/img/2015-11-14-20.38.15-1024x768.jpg");
             }
             &-6 {
-                background-image: url("/img/2017/06/dinner-1024x768.jpg");
+                background-image: url("/assets/img/dinner-1024x768.jpg");
             }
         }
         .carousel-text {
@@ -231,7 +231,7 @@
             color: $gray-1;
             font-size: 24px;
         }
-        p, 
+        p,
         li {
             color: $gray-9;
             font-size: 14px;
@@ -246,5 +246,5 @@
         p {
             font-size: 18px;
         }
-    } 
+    }
 }

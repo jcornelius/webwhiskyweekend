@@ -23,3 +23,10 @@ header {
         }
     }
 }
+
+a {
+  color: $brand-orange;
+  &:hover {
+    color: $orange-dark;
+  }
+}
