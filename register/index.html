@@ -1,0 +1,86 @@
+---
+layout: default
+title: "Register Now"
+js: register
+---
+<div class="register">
+    <div class="section-1">
+        <div class="container p-0">
+            <div class="row mx-0">
+                <div class="col-12">
+                    <h1 class="px-1 mx-3">Reserve Your Spot</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+
+        <form action="#">
+        <div class="container mt-5">
+          <div class="row">
+            <div class="col">
+              <h3>Explore the Sleeping Arrangements</h3>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col align-middle">
+              <select id="room" class="custom-select">
+                {% for room in site.data.rooms %}
+                <option value="{{ room.id }}" data-rate="{{ room.rate }}" data-sleeps="{{ room.sleeps }}">#{{ room.id }} - {{ room.room }} (Sleeps {{ room.sleeps }}) - ${{ room.rate }}</option>
+                {% endfor %}
+              </select>
+            </div>
+          </div>
+          <div class="row room-info-container">
+            <div class="col">
+              <div id="room-info">
+                <ul id="room-info-nav" class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-image="room-photo" href="#">Room Photo</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-image="room-location" href="#">Room Location</a>
+                  </li>
+                </ul>
+                <div id="room-image-container">
+                  <img src="https://github.com/jcornelius/webwhiskyweekend/blob/master/site/rooms/1.jpg?raw=true" class="room-image img-fluid rounded" id="room-photo">
+                  <img src="https://github.com/jcornelius/webwhiskyweekend/blob/master/site/rooms/1-location.png?raw=true" class="room-image img-fluid" id="room-location">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        </form>
+        <div class="container px-0 py-1 my-3">
+            <div class="row px-1 mx-3">
+                <div class="col text-center py-1 my-3">
+
+                    <a class="btn button btn-lg" href="https://www.eventbrite.com/e/web-whisky-weekend-6-tickets-94616938811">Reserve Your Spot Now</a>
+                    <p class="my-3">There are lots of rooms to choose from. <a href="/img/2018/05/Sleeping-Layout.png">View the Room Guide</a></p>
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col attendee-info">
+                <h5>Important Attendee Info:</h5>
+                <ul>
+                  <li>Each attendee must bring two unique, unopened bottles of whisky to attend.</li>
+                  <li>Your ticket includes all food and drink for the weekend, other than the two bottles of whisky each attendee has to bring.</li>
+                  <li>All private bedrooms and full-size beds in shared rooms include attendance for two people. You can book them for yourself or bring a +1, up to you.</li>
+                  <li>Kathy&rsquo;s Cabin includes the entire cabin (which can technically sleep 3 people).</li>
+                </ul>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-3">
+        <div class="container px-0">
+            <div class="row px-1 mx-3">
+                <div class="col-12 py-1 my-3 text-center d-md-none">
+                    <a href="https://www.eventbrite.com/e/web-whisky-weekend-5-tickets-55128086591" class="button"><i
+                            class="fa fa-star"></i> Get Tickets <i class="fa fa-star"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

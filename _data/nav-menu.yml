@@ -1,0 +1,10 @@
+- text: Whisky
+  url: /whisky/
+- text: Food
+  url: /food/
+- text: People
+  url: /people/
+- text: House
+  url: /house/
+- text: Register Now
+  url: /register/
