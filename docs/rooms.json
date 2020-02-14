@@ -4,199 +4,265 @@
             "MapID": 1,
             "Room": "Main Floor King Bedroom with Private Bath",
             "Sleeps": 2,
-            "Rate": 1795
+            "Rate": 1795,
+            "RoomPhoto": "../img/rooms/1.jpg",
+            "MapLocation": "../img/rooms/1-location.png"
         },
         {
             "MapID": 2,
             "Room": "Main Floor King Bedroom with Private Bath and Gazebo Sitting Room",
             "Sleeps": 2,
-            "Rate": 1995
+            "Rate": 1995,
+            "RoomPhoto": "../img/rooms/2.jpg",
+            "MapLocation": "../img/rooms/2-location.png"
         },
         {
             "MapID": 3,
             "Room": "Main Floor Bunk Room Full Bed",
             "Sleeps": 2,
-            "Rate": 895
+            "Rate": 895,
+            "RoomPhoto": "../img/rooms/3.jpg",
+            "MapLocation": "../img/rooms/3-location.png"
         },
         {
             "MapID": 4,
             "Room": "Main Floor Bunk Room Twin Bed",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/4.jpg",
+            "MapLocation": "../img/rooms/4-location.png"
         },
         {
             "MapID": 5,
             "Room": "Main House Basement King Bed",
             "Sleeps": 2,
-            "Rate": 995
+            "Rate": 995,
+            "RoomPhoto": "../img/rooms/5.jpg",
+            "MapLocation": "../img/rooms/5-location.png"
         },
         {
             "MapID": 6,
             "Room": "Main House Basement King Bed",
             "Sleeps": 2,
-            "Rate": 995
+            "Rate": 995,
+            "RoomPhoto": "../img/rooms/6.jpg",
+            "MapLocation": "../img/rooms/6-location.png"
         },
         {
             "MapID": 7,
             "Room": "Main House Basement Twin Bed",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/7.jpg",
+            "MapLocation": "../img/rooms/7-location.png"
         },
         {
             "MapID": 8,
             "Room": "Main House Basement Twin Bed",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/8.jpg",
+            "MapLocation": "../img/rooms/8-location.png"
         },
         {
             "MapID": 9,
             "Room": "Main House Upstairs King Room with Private Bath",
             "Sleeps": 2,
-            "Rate": 1895
+            "Rate": 1895,
+            "RoomPhoto": "../img/rooms/9.jpg",
+            "MapLocation": "../img/rooms/9-location.png"
         },
         {
             "MapID": 10,
             "Room": "Main House Upstairs Bunk Room Twin Bed - Lower Bunk",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/10.jpg",
+            "MapLocation": "../img/rooms/10-location.png"
         },
         {
             "MapID": 11,
             "Room": "Main House Upstairs Bunk Room Twin Bed - Lower Bunk",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/11.jpg",
+            "MapLocation": "../img/rooms/11-location.png"
         },
         {
             "MapID": 12,
             "Room": "Main House Upstairs Bunk Room Twin Bed - Upper Bunk",
             "Sleeps": 1,
-            "Rate": 645
+            "Rate": 645,
+            "RoomPhoto": "../img/rooms/12.jpg",
+            "MapLocation": "../img/rooms/12-location.png"
         },
         {
             "MapID": 13,
             "Room": "Main House Upstairs Bunk Room Twin Bed - Upper Bunk",
             "Sleeps": 1,
-            "Rate": 645
+            "Rate": 645,
+            "RoomPhoto": "../img/rooms/13.jpg",
+            "MapLocation": "../img/rooms/13-location.png"
         },
         {
             "MapID": 14,
             "Room": "Main House Upstairs Master Suite",
             "Sleeps": 2,
-            "Rate": 2195
+            "Rate": 2195,
+            "RoomPhoto": "../img/rooms/14.jpg",
+            "MapLocation": "../img/rooms/14-location.png"
         },
         {
             "MapID": 15,
             "Room": "Main House Upstairs King Room",
             "Sleeps": 2,
-            "Rate": 1795
+            "Rate": 1795,
+            "RoomPhoto": "../img/rooms/15.jpg",
+            "MapLocation": "../img/rooms/15-location.png"
         },
         {
             "MapID": 16,
             "Room": "Main House Upstairs Queen Room",
             "Sleeps": 2,
-            "Rate": 1295
+            "Rate": 1295,
+            "RoomPhoto": "../img/rooms/16.jpg",
+            "MapLocation": "../img/rooms/16-location.png"
         },
         {
             "MapID": 17,
             "Room": "Main House Upstairs Twin Bed (Private Room)",
             "Sleeps": 1,
-            "Rate": 795
+            "Rate": 795,
+            "RoomPhoto": "../img/rooms/17.jpg",
+            "MapLocation": "../img/rooms/17-location.png"
         },
         {
             "MapID": 18,
             "Room": "Main House Upstairs Twin Bed",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/18.jpg",
+            "MapLocation": "../img/rooms/18-location.png"
         },
         {
             "MapID": 19,
             "Room": "Main House Upstairs Twin Bed ",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/19.jpg",
+            "MapLocation": "../img/rooms/19-location.png"
         },
         {
             "MapID": 20,
             "Room": "Main House Upstairs Twin Bed (Alcove)",
             "Sleeps": 1,
-            "Rate": 595
+            "Rate": 595,
+            "RoomPhoto": "../img/rooms/20.jpg",
+            "MapLocation": "../img/rooms/20-location.png"
         },
         {
             "MapID": 21,
             "Room": "Garage Apartment Queen Bedroom",
             "Sleeps": 2,
-            "Rate": 1395
+            "Rate": 1395,
+            "RoomPhoto": "../img/rooms/21.jpg",
+            "MapLocation": "../img/rooms/21-location.png"
         },
         {
             "MapID": 22,
             "Room": "Garage Apartment Bunk Room Twin Bed - Lower Bunk",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/22.jpg",
+            "MapLocation": "../img/rooms/22-location.png"
         },
         {
             "MapID": 23,
             "Room": "Garage Apartment Bunk Room Twin Bed - Lower Bunk",
             "Sleeps": 1,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/23.jpg",
+            "MapLocation": "../img/rooms/23-location.png"
         },
         {
             "MapID": 24,
             "Room": "Garage Apartment Bunk Room Twin Bed - Upper Bunk",
             "Sleeps": 1,
-            "Rate": 645
+            "Rate": 645,
+            "RoomPhoto": "../img/rooms/24.jpg",
+            "MapLocation": "../img/rooms/24-location.png"
         },
         {
             "MapID": 25,
             "Room": "Garage Apartment Bunk Room Twin Bed - Upper Bunk",
             "Sleeps": 1,
-            "Rate": 645
+            "Rate": 645,
+            "RoomPhoto": "../img/rooms/25.jpg",
+            "MapLocation": "../img/rooms/25-location.png"
         },
         {
             "MapID": 26,
             "Room": "Kathy's Cabin (entire cabin)",
             "Sleeps": 3,
-            "Rate": 2195
+            "Rate": 2195,
+            "RoomPhoto": "../img/rooms/26.jpg",
+            "MapLocation": "../img/rooms/26-location.png"
         },
         {
             "MapID": 27,
             "Room": "Barn Cabin Queen Bed",
             "Sleeps": 2,
-            "Rate": 695
+            "Rate": 695,
+            "RoomPhoto": "../img/rooms/27.jpg",
+            "MapLocation": "../img/rooms/27-location.png"
         },
         {
             "MapID": 28,
             "Room": "Barn Cabin Twin Bed",
             "Sleeps": 1,
-            "Rate": 595
+            "Rate": 595,
+            "RoomPhoto": "../img/rooms/28.jpg",
+            "MapLocation": "../img/rooms/28-location.png"
         },
         {
             "MapID": 29,
             "Room": "Barn Cabin Twin Bed",
             "Sleeps": 1,
-            "Rate": 595
+            "Rate": 595,
+            "RoomPhoto": "../img/rooms/29.jpg",
+            "MapLocation": "../img/rooms/29-location.png"
         },
         {
             "MapID": 30,
             "Room": "Barn Cabin Twin Bed",
             "Sleeps": 1,
-            "Rate": 595
+            "Rate": 595,
+            "RoomPhoto": "../img/rooms/30.jpg",
+            "MapLocation": "../img/rooms/30-location.png"
         },
         {
             "MapID": 31,
             "Room": "Barn Cabin Twin Bed",
             "Sleeps": 1,
-            "Rate": 595
+            "Rate": 595,
+            "RoomPhoto": "../img/rooms/31.jpg",
+            "MapLocation": "../img/rooms/31-location.png"
         },
         {
             "MapID": 32,
             "Room": "Barn Cabin Twin Bed",
             "Sleeps": 1,
-            "Rate": 595
+            "Rate": 595,
+            "RoomPhoto": "../img/rooms/32.jpg",
+            "MapLocation": "../img/rooms/32-location.png"
         },
         {
             "MapID": 33,
             "Room": "Barn Cabin Pull-out Sofa Bed",
             "Sleeps": 2,
-            "Rate": 595
+            "Rate": 595,
+            "RoomPhoto": "../img/rooms/33.jpg",
+            "MapLocation": "../img/rooms/33-location.png"
         }
     ]
 }
