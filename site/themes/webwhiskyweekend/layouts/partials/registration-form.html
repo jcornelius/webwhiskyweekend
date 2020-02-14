@@ -29,8 +29,8 @@
                         </label>
                     </div>
                     <div class="border">
-                        <img src="..." class="img-fluid room-photo" alt="Photo of Room">
-                        <img src="..." class="img-fluid d-none map-location" alt="MAP LOCATION OF ROOM">
+                        <img src="{{ (index .Site.Data.rooms.rooms 0).RoomPhoto }}" class="img-fluid room-photo" alt="Photo of Room">
+                        <img src="{{ (index .Site.Data.rooms.rooms 0).MapLocation }}" class="img-fluid d-none map-location" alt="MAP LOCATION OF ROOM">
                     </div>
                 </div>
             </div>

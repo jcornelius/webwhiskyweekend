@@ -19,6 +19,8 @@ const getCost = () => {
             if(data.rooms[i].MapID === optionValue) {
                 roomRate = data.rooms[i].Rate;
                 roomCost.innerText = roomRate;
+                roomPhoto.src = data.rooms[i].RoomPhoto;
+                mapLocation.src = data.rooms[i].MapLocation;
             };
         };
     });
