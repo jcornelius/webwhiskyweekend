@@ -4,6 +4,21 @@ $blue-1: #1da1f2;
 $orange-1: $brand-orange;
 $orange-2: #a62;
 $orange-3: #b5781e;
+
+$black:        #000 !default;
+$gray-90:      #333 !default;
+$gray-80:      #4c4c4c !default;
+$gray-70:      #666 !default;
+$gray-60:      #7f7f7f !default;
+$gray-50:      #999 !default;
+$gray-40:      #b2b2b2 !default;
+$gray-30:      #ccc !default;
+$gray-20:      #e5e5e5 !default;
+$gray-10:      #f0f0f0 !default;
+$gray-5:       #fafafa !default;
+$white:        #fff !default;
+
+/* Legacy Grays */
 $gray-1: #333;
 $gray-2: #e6e6e6;
 $gray-3: #656565;
@@ -12,5 +27,3 @@ $gray-5: #ddd;
 $gray-6: #aaa;
 $gray-8: #222;
 $gray-9: #808080;
-$white: #fff;
-$black: #000;

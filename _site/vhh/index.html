@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel='stylesheet' id='font-awesome-css' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css?ver=2.2.0.7' type='text/css' media='all'>
 <link rel="stylesheet" href="/assets/style.css">
-<title>{{ page.title }}</title>
+<title>Virtual Happy Hour</title>
 <link rel="icon" href="/assets/img/cropped-whisky-glass-icon-32x32.png" sizes="32x32">
 <link rel="icon" href="/assets/img/cropped-whisky-glass-icon-192x192.png" sizes="192x192">
 
@@ -21,15 +21,62 @@
       </button>
       <div class="collapse navbar-collapse text-uppercase justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          {% for nav in site.data.nav-menu %}
-          <li class="nav-item {% if nav.url == page.url %}active{% endif %}"><a class="nav-link" href="{{ nav.url }}">{{ nav.text }}</a><hr class="m-0"></li>
-          {% endfor %}
+          
+          <li class="nav-item "><a class="nav-link" href="/whisky/">Whisky</a><hr class="m-0"></li>
+          
+          <li class="nav-item "><a class="nav-link" href="/food/">Food</a><hr class="m-0"></li>
+          
+          <li class="nav-item "><a class="nav-link" href="/people/">People</a><hr class="m-0"></li>
+          
+          <li class="nav-item "><a class="nav-link" href="/house/">House</a><hr class="m-0"></li>
+          
+          <li class="nav-item "><a class="nav-link" href="/register/">Register Now</a><hr class="m-0"></li>
+          
         </ul>
       </div>
     </nav>
   </header>
   <div id="content">
-    {{ content }}
+    <div class="register">
+    <div class="section-1">
+        <div class="container p-0">
+            <div class="row mx-0">
+                <div class="col-12">
+                    <h1 class="px-1 mx-3">Join us for Virtual Happy Hour</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-2">
+      <div class="container my-5">
+        <div class="row mb-5">
+          <div class="col-sm-12 col-md-9">
+            <h1>More fun than your other video calls.</h1>
+            <p>You&rsquo;re probably stuck at home anyway. Join a handful of fine folks for a virtual happy hour. The calls are the first Wednesday of every month, starting at 8pm Eastern.</p>
+          </div>
+          <div class="col-sm-12 col-md-3">
+            <a class="btn btn-primary btn-lg btn-block" href="https://zoom.us/meeting/register/upAqfuGhqTgiiAEugIhsOkDk9pJ6nX0SiA">Get an Invite</i></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-8">
+            <img src="/assets/img/vhh.png" alt="Photo of Virtual Happy Hour" class="img-fluid" />
+          </div>
+          <div class="col-sm-12 col-md-4">
+            <h5 class="mt-3">Virtual Happy Hour Dates</h5>
+            <ul>
+              <li>May 6, 2020 - 08:00 PM Eastern</li>
+              <li>Jun 3, 2020 - 08:00 PM Eastern</li>
+              <li>Jul 1, 2020 - 08:00 PM Eastern</li>
+              <li>Aug 5, 2020 - 08:00 PM Eastern</li>
+              <li>Sep 2, 2020 - 08:00 PM Eastern</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+
   </div>
   <footer>
     <div class="container-fluid">
@@ -54,9 +101,17 @@
           <div class="col-md-6">
             <nav class="navbar">
               <ul class="navbar-nav">
-                {% for nav in site.data.nav-menu %}
-                <li class="nav-item {% if nav.url == page.url %}active{% endif %}"><a class="nav-link" href="{{ nav.url }}">{{ nav.text }}</a><hr class="m-0"></li>
-                {% endfor %}
+                
+                <li class="nav-item "><a class="nav-link" href="/whisky/">Whisky</a><hr class="m-0"></li>
+                
+                <li class="nav-item "><a class="nav-link" href="/food/">Food</a><hr class="m-0"></li>
+                
+                <li class="nav-item "><a class="nav-link" href="/people/">People</a><hr class="m-0"></li>
+                
+                <li class="nav-item "><a class="nav-link" href="/house/">House</a><hr class="m-0"></li>
+                
+                <li class="nav-item "><a class="nav-link" href="/register/">Register Now</a><hr class="m-0"></li>
+                
               </ul>
             </nav>
           </div>
@@ -71,9 +126,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   <script src="/assets/js/main.js"></script>
-  {% if page.js == "register" %}
-  <script src="/assets/js/register.js"></script>
-  {% endif %}
+  
 
 </body>
 
