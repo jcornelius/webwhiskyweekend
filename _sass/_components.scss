@@ -15,6 +15,15 @@
         background-color: $orange-2;
         text-decoration: none;
     }
+
+    .disabled {
+        cursor: not-allowed;
+
+        &:hover {
+            color: currentColor;
+            background-color: $orange-1;
+        }
+    }
 }
 
 .attendee-info {

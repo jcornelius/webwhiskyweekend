@@ -64,7 +64,6 @@
   }
 }
 
-
 .room-info-container {
   margin:3rem 0;
 }
@@ -76,4 +75,35 @@
   img#room-location {
     display: none;
   }
+}
+
+.btn {
+    margin-bottom: 1em;
+}
+
+.modal-toggle {
+    display: inline-block;
+}
+
+.modal {
+    .modal-dialog {
+        max-width: 75vw;
+        margin: 1.75rem auto;
+        .close {
+            position: absolute;
+            right: -15%;
+            color: $white;
+            z-index: 2;
+        }
+        .carousel-control-prev {
+            left: -15%;
+        }
+        .carousel-control-next {
+            right: -15%;
+        }
+    }
+}
+
+.toggle-link {
+    cursor: pointer;
 }
