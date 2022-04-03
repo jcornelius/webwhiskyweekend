@@ -26,7 +26,7 @@ js: register
             <div class="col align-middle">
               <select id="room" class="custom-select">
                 {% for room in site.data.rooms %}
-                <option value="{{ room.id }}" data-rate="{{ room.rate }}" data-sleeps="{{ room.sleeps }}">#{{ room.id }} - {{ room.room }} (Sleeps {{ room.sleeps }}) - ${{ room.rate }}</option>
+                <option value="{{ room.id }}" data-rate="{{ room.rate }}" data-sleeps="{{ room.sleeps }}">#{{ room.id }} - {{ room.room }} (Sleeps {{ room.sleeps }}) - {% if room.available %} ${{ room.rate }} {% else %} SOLD OUT {% endif %}</option>
                 {% endfor %}
               </select>
             </div>
@@ -54,8 +54,8 @@ js: register
         <div class="container px-0 py-1 my-3">
             <div class="row px-1 mx-3">
                 <div class="col text-center py-1 my-3">
-                    <a class="btn button btn-lg disabled reserve" href="">Reservations Open Soon</a>&nbsp;&nbsp;&nbsp;<div class="modal-toggle" data-toggle="modal" data-target="#modal-floorplans"><a class="btn button btn-lg toggle-link" data-target="#carousel-floorplans" data-slide-to="0">View Floorplans</a></div>
-                    <p class="my-3">Ticket sales open soon, we'll announce a date shortly.</p>
+                    <a class="btn button btn-lg reserve" href="https://square.link/u/oxZQ27Xh">Make a Reservation</a>&nbsp;&nbsp;&nbsp;<div class="modal-toggle" data-toggle="modal" data-target="#modal-floorplans"><a class="btn button btn-lg toggle-link" data-target="#carousel-floorplans" data-slide-to="0">View Floorplans</a></div>
+                    <p class="my-3">Don't need a room? Grab a Couch Surfer ticket for $495 and crash wherever!</p>
                     <hr>
                 </div>
             </div>

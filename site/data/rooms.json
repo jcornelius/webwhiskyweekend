@@ -3,198 +3,231 @@
     "id": 1,
     "room": "Main Floor King Bedroom with Private Bath",
     "sleeps": 2,
-    "rate": 2195
+    "rate": 2195,
+    "available": false
   },
   {
     "id": 2,
     "room": "Main Floor King Bedroom with Private Bath and Gazebo Sitting Room",
     "sleeps": 2,
-    "rate": 2295
+    "rate": 2295,
+    "available": false
   },
   {
     "id": 3,
     "room": "Main Floor Bunk Room Full Bed",
     "sleeps": 2,
-    "rate": 995
+    "rate": 995,
+    "available": true
   },
   {
     "id": 4,
     "room": "Main Floor Bunk Room Twin Bed",
     "sleeps": 1,
-    "rate": 995
+    "rate": 995,
+    "available": true
   },
   {
     "id": 5,
     "room": "Main House Basement King Bed",
     "sleeps": 2,
-    "rate": 995
+    "rate": 995,
+    "available": false
   },
   {
     "id": 6,
     "room": "Main House Basement King Bed",
     "sleeps": 2,
-    "rate": 995
+    "rate": 995,
+    "available": false
   },
   {
     "id": 7,
     "room": "Main House Basement Twin Bed",
     "sleeps": 1,
-    "rate": 795
+    "rate": 795,
+    "available": false
   },
   {
     "id": 8,
     "room": "Main House Basement Twin Bed",
     "sleeps": 1,
-    "rate": 795
+    "rate": 795,
+    "available": false
   },
   {
     "id": 9,
     "room": "Main House Upstairs King Room with Private Bath",
     "sleeps": 2,
-    "rate": 2295
+    "rate": 2295,
+    "available": false
   },
   {
     "id": 10,
     "room": "Main House Upstairs Bunk Room Twin Bed - Lower Bunk",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": false
   },
   {
     "id": 11,
     "room": "Main House Upstairs Bunk Room Twin Bed - Lower Bunk",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": false
   },
   {
     "id": 12,
     "room": "Main House Upstairs Bunk Room Twin Bed - Upper Bunk",
     "sleeps": 1,
-    "rate": 645
+    "rate": 645,
+    "available": false
   },
   {
     "id": 13,
     "room": "Main House Upstairs Bunk Room Twin Bed - Upper Bunk",
     "sleeps": 1,
-    "rate": 645
+    "rate": 645,
+    "available": true
   },
   {
     "id": 14,
     "room": "Main House Upstairs Master Suite",
     "sleeps": 2,
-    "rate": 2495
+    "rate": 2495,
+    "available": false
   },
   {
     "id": 15,
     "room": "Main House Upstairs King Room",
     "sleeps": 2,
-    "rate": 1895
+    "rate": 1895,
+    "available": false
   },
   {
     "id": 16,
     "room": "Main House Upstairs Queen Room",
     "sleeps": 2,
-    "rate": 1495
+    "rate": 1495,
+    "available": false
   },
   {
     "id": 17,
     "room": "Main House Upstairs Twin Bed (Private Room)",
     "sleeps": 1,
-    "rate": 895
+    "rate": 895,
+    "available": false
   },
   {
     "id": 18,
     "room": "Main House Upstairs Twin Bed",
     "sleeps": 1,
-    "rate": 795
+    "rate": 795,
+    "available": false
   },
   {
     "id": 19,
     "room": "Main House Upstairs Twin Bed",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": false
   },
   {
     "id": 20,
     "room": "Main House Upstairs Twin Bed (Alcove)",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": false
   },
   {
     "id": 21,
     "room": "Garage Apartment Queen Bedroom",
     "sleeps": 2,
-    "rate": 1795
+    "rate": 1795,
+    "available": false
   },
   {
     "id": 22,
     "room": "Garage Apartment Bunk Room Twin Bed - Lower Bunk",
     "sleeps": 1,
-    "rate": 795
+    "rate": 795,
+    "available": true
   },
   {
     "id": 23,
     "room": "Garage Apartment Bunk Room Twin Bed - Lower Bunk",
     "sleeps": 1,
-    "rate": 795
+    "rate": 795,
+    "available": true
   },
   {
     "id": 24,
     "room": "Garage Apartment Bunk Room Twin Bed - Upper Bunk",
     "sleeps": 1,
-    "rate": 745
+    "rate": 745,
+    "available": true
   },
   {
     "id": 25,
     "room": "Garage Apartment Bunk Room Twin Bed - Upper Bunk",
     "sleeps": 1,
-    "rate": 745
+    "rate": 745,
+    "available": true
   },
   {
     "id": 26,
     "room": "Kathy's Cabin (entire cabin)",
     "sleeps": 3,
-    "rate": 2395
+    "rate": 2395,
+    "available": false
   },
   {
     "id": 27,
     "room": "Barn Cabin Queen Bed",
     "sleeps": 2,
-    "rate": 795
+    "rate": 795,
+    "available": false
   },
   {
     "id": 28,
     "room": "Barn Cabin Twin Bed",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": true
   },
   {
     "id": 29,
     "room": "Barn Cabin Twin Bed",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": true
   },
   {
     "id": 30,
     "room": "Barn Cabin Twin Bed",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": true
   },
   {
     "id": 31,
     "room": "Barn Cabin Twin Bed",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": true
   },
   {
     "id": 32,
     "room": "Barn Cabin Twin Bed",
     "sleeps": 1,
-    "rate": 695
+    "rate": 695,
+    "available": true
   },
   {
     "id": 33,
     "room": "Barn Cabin Pull-out Sofa Bed",
     "sleeps": 2,
-    "rate": 695
+    "rate": 695,
+    "available": false
   }
 ]
